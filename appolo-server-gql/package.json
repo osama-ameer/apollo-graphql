@@ -1,0 +1,17 @@
+{
+  "name": "appolo-server-gql",
+  "version": "1.0.0",
+  "description": "apolo server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "author": "osama",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.21.0",
+    "graphql": "^15.5.0",
+    "nodemon": "^2.0.7"
+  }
+}
